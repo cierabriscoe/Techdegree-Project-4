@@ -1,0 +1,41 @@
+// Colors
+$white: #fff;
+$color-base: #777;
+$color-primary: #58e1c1;
+$color-primary-light: lighten($color-primary, 10%);
+$color-secondary: #51ddfc;
+$color-secondary-light: lighten($color-secondary, 10%);
+$bg-color-1: #927bc1;
+$bg-color-2: #fd7856;
+$bg-color-3: #deb2ee;
+$bg-color-4: #7ee6fd;
+$bg-color-5: #88d9a0;
+$bg-color-6: #4da2bb;
+$bg-color-7: #ec9fa3;
+$bg-color-8: #fd9f85;
+$bg-color-9: #e4757a;
+$bg-color-10: #63cc82;
+$bg-color-11: #51ddfc;
+$bg-color-12: #80e8d1;
+
+// all colors variable
+$bg-colors: (
+  $bg-color-1,
+  $bg-color-2,
+  $bg-color-3,
+  $bg-color-4,
+  $bg-color-5,
+  $bg-color-6,
+  $bg-color-7,
+  $bg-color-8,
+  $bg-color-9,
+  $bg-color-10,
+  $bg-color-11,
+  $bg-color-12
+);
+
+// Fonts
+$font-family-primary: "Lato", sans-serif;
+
+//breakpoint
+$break-m: 768px;
